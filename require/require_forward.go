@@ -204,7 +204,7 @@ func (a *Assertions) JSONEq(expected string, actual string, msgAndArgs ...interf
 }
 
 // Len asserts that the specified object has specific length.
-// Len also fails if the object has a type that len() not accept.
+// Len also fails if the object has a type that len() does not accept.
 //
 //    a.Len(mySlice, 3, "The size of slice is not 3")
 //
